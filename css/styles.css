@@ -1,0 +1,1076 @@
+body {
+  margin: 0;
+  font-family: Nunito Sans;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.button {
+  background-color: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 13px 33px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.logo {
+  color: #E3B873;
+  margin-left: 92px;
+}
+
+.telephon a {
+  color: #E3B873;
+}
+
+.header {
+  background-color: black;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.header-content{
+  display: flex;
+  justify-content: space-between;
+  height: 83px;
+  align-items: center;
+}
+
+.header-navigation {
+  list-style: none;
+  display: flex;
+}
+
+.header-navigation_item {
+  margin-right: 47px;
+}
+
+.header-navigation_item a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  background-image: url(../img/hero.jpg);
+  background-size: cover;
+  height: 707px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.7) inset;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  padding-bottom: 208px;
+}
+
+.title {
+  margin: 0;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 194px;
+  padding-left: 134px;
+  padding-right: 627px;
+  font-size: 40px;
+  line-height: 53px;
+  font-family: Yeseva One;
+}
+
+.heading {
+  margin: 0;
+  color: white;
+  padding-top: 19px;
+  padding-left: 134px;
+  padding-right: 800px;
+  padding-bottom: 41px;
+  font-size: 22px;
+  line-height: 36px;
+  font-style: normal;
+  font-weight: normal;
+  }
+
+.button-second {
+  background-color: #E3B873;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 0;
+  padding: 19px 20px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 134px;
+  width: 207px;
+  height: 51px;
+  font-size: 11px; 
+  cursor: pointer;
+}
+
+.button-transparent {
+  background-color: rgba(205, 214, 219, 0.1);
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+  border-radius: 2px;
+  outline: 0;
+  border: 1px solid;
+  padding: 19px 20px;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 20px;
+  width: 207px;
+  height: 51px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.window {
+  background-color: black;
+  background-size: cover;
+  height: 1074px;
+
+  position: relative;
+
+}
+
+.list-two {
+
+  width: 623px;
+  height: 24px;
+
+  position: relative;
+
+  left: 43%;
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 107px;
+  align-items: center;
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  list-style: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+
+}
+
+
+.container-two {
+  margin-left: 89px;
+  margin-right: 87px;
+}
+
+
+
+.list-two__item a {
+  color: #ffffff8c !important;
+  text-decoration: none;
+}
+
+.list-two__item a:hover {
+  color: #E3B873 !important;
+  text-decoration: underline;
+}
+
+
+
+
+
+.completed-projects {
+  margin-top: 53px;
+  color: #E3B873;
+  box-sizing: border-box;
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  margin-bottom: 0%;
+
+}
+
+.text-sec-page {
+  padding-top: 34px;
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 27px;
+  margin: 0px;
+  color: #FFFFFF;
+}
+
+.city {
+  padding-top: 42px;
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #E3B873;
+}
+
+.cities {
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.chairs {
+  height: 482px;
+  width: 679px;
+  margin-top: 53px;
+}
+
+.pad {
+  padding-left: 134px;
+  padding-right: 134px
+}
+
+.five {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horisontal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.repair-cost {
+  margin-right: 48px;
+}
+
+
+.strokes {
+  width: 205px;
+  height: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.man {
+  height: 680px;
+  position: relative;
+}
+
+.container-three {
+  position: absolute;
+  top: -60%;
+  left: 0;
+  right: 0;
+
+}
+
+.white-text {
+  padding-top: 94px;
+  margin-top: 0%;
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.camera {
+  color: #E3B873;
+  display: flex;
+  justify-content: center;
+}
+
+.video {
+  margin-left: 21%;
+  margin-top: 31px;
+  height: 434px;
+  width: 817px;
+  position: relative;
+}
+
+.video-overlay {
+  background-color: rgba(0, 0, 0, .8);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.play {
+  left: 336px;
+  z-index: 2;
+  position: absolute;
+  top: 174px;
+}
+
+
+
+.line {
+  background-color: #E3B873;
+  border-radius: 30px;
+  width: 55px;
+  margin-top: 62px;
+}
+
+.text-man-div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.text-man {
+  width: 680px;
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 0%;
+  color: #363636;
+}
+
+
+.Step_Form{
+  margin-bottom: 76px;
+}
+.Step_Form_Input_Label{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(54, 54, 54, 0.5);
+}
+
+
+.input.Step_Form_Text{
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #363636;  
+}
+
+
+.Step_Form_Text{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  background-color: transparent;
+  outline: none;
+}
+.Step_Form_Text::placeholder{
+  color: #363636; 
+}
+.Step_Form_Content{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 33px;
+}
+.Step_Form .button{
+  padding-left: 75px;
+  padding-right: 76px;
+  font-size: 13px;
+  line-height: 27px;
+  
+}
+
+.Step_Form_Button_Content{
+  margin: 0%;
+}
+
+
+.clue {
+  box-sizing: border-box;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0, 15);
+  margin-top: 7px;
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
+  width: 408px;
+  background-color: #131313;
+}
+
+.submit {
+  height: 51px;
+  width: 200px;
+  background: #E3B873;
+  box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
+  border-radius: 2px;
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 27px;
+  margin: 0;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+} 
+
+.agreement {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  color: #181818;
+}
+
+.agreementplus {
+  justify-content: center;
+  padding-left: 580px;
+  width: 285px;
+  margin-top: 37px;
+}
+
+.checkbox-container {
+  display: flex;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+  align-items: center;
+}
+
+.checkbox-container input {
+  position: absolute;
+  opacity: 100;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+}
+
+.checkbox-container:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+.checkbox-container input:checked~.checkmark {
+  background-color: #E3B873;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkbox-container input:checked~.checkmark:after {
+  display: block;
+}
+
+.checkbox-container .checkmark:after {
+  left: 6px;
+  top: 1px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  margin-bottom: 0%;
+}
+
+.label {
+  margin-bottom: 0%;
+}
+
+.photos {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.repair-box img {
+  width: 392px;
+  height: 421px;
+  padding-top: 30px;
+}
+
+
+.repair {
+  background-size: cover;
+}
+
+
+
+.black-text {
+  padding-top: 147px;
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: 0%;
+  text-transform: uppercase;
+  color: #181818;
+  text-align: center;
+}
+
+.things {
+  color: #E3B873;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.repair-box {
+  position: relative;
+}
+
+.square-box {
+  position: absolute;
+  top: 288px;
+  left: 8px;
+  z-index: 10;
+}
+
+.repair-box h1 {
+  padding-top: 42px;
+  padding-left: 102px;
+  position: absolute;
+  top: 288px;
+  left: 8px;
+  z-index: 11;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+
+.repair-box ul {
+  padding-top: 70px;
+  padding-left: 100px;
+  position: absolute;
+  top: 288px;
+  left: 8px;
+  z-index: 11;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 27px;
+  color: #959595;
+}
+
+h3.price-from1 {
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  width: 228px;
+  position: absolute;
+  margin-left: 77px;
+  z-index: 12;
+  margin-top: 115px;
+  padding: 0%;
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: #FFFFFF;
+}
+
+
+
+.contact-us {
+  background-image: url(../img/sketch.png);
+  background-repeat: no-repeat;
+}
+
+
+
+
+.contact {
+  margin-top: 230px;
+  height: 645px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sketch-pic {
+  z-index: 10;
+}
+
+.list-of-process {
+  z-index: 11;
+  width: 527px;
+  margin: 0px;
+}
+
+
+
+.paragraph {
+  display: flex;
+  padding-top: 100px;
+  z-index: 11;
+  width: 374px;
+  height: 50px;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636;
+}
+
+
+.ball {
+  background-color: #E3B873;
+  border-radius: 50%;
+  height: 41px;
+  width: 41px;
+  text-align: center;
+  margin-top: 9px;
+  border: 8px solid #FFFFFF;
+  box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.ball-text {
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #363636;
+}
+
+.form-div {
+  background: #131313;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+  width: 506px;
+  height: 509px;
+  margin-top: 106px;
+}
+
+.namephone2 {
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.decor h3 {
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.decor .agreement {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 163.68%;
+  color: white;
+}
+
+.decor .agreementplus {
+  margin-left: 49px;
+  padding-left: 0%;
+}
+
+.decor div {
+  margin-left: 49px;
+  margin-top: 30px;
+}
+
+.input:checked~.checkmark:after {
+  display: block;
+}
+
+.decor .submit {
+  margin-left: 222px;
+  margin-top: 39px;
+  padding: 0%;
+}
+
+.decor .checkbox-container {
+  margin-bottom: 0px;
+}
+
+.pig {
+  margin-top: 38px;
+  display: flex;
+}
+
+.pig-text {
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  color: #E3B873;
+  text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+}
+
+.fantasy {
+
+  background-image: url(../img/carpet.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-shadow: 0 0 0 700px rgba(0, 0, 0, 0.7) inset;
+}
+
+.fantasy-overlay {
+  content: "";
+  height: 864px;
+  width: 1440px;
+}
+
+
+.fantasies {
+  margin-top: 242px;
+  display: flex;
+  justify-content: space-around;
+  z-index: 10;
+}
+
+
+.list-of-fantasies h1 {
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-left: 99px;
+  margin-top: 137px;
+  margin-bottom: 0px;
+}
+
+.fantasy-styles {
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+  list-style: none;
+  display: flex;
+  font-size: 11px;
+  text-decoration: none;
+  color: white;
+  font-family: "nunito";
+}
+
+.wildest-fantasies a {
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+}
+
+.wildest-fantasies {
+  padding-top: 47px;
+  padding-left: 0%;
+  margin-left: 99px;
+  margin-top: 0px;
+}
+
+.wildest-fantasies a:hover {
+  color: #E3B873;
+}
+
+
+
+.clock {
+  margin-left: 587px;
+  margin-top: 0px;
+  position: absolute;
+  bottom: 347px;
+}
+
+.tv {
+  margin-left: 587px;
+  position: absolute;
+  bottom: -41px;
+}
+
+.sofa {
+  position: absolute;
+  bottom: 700px;
+  right: 100px;
+}
+
+
+.flower {
+  right: 100px;
+  position: absolute;
+  bottom: 39px;
+}
+
+.ourclients {
+  height: 872px;
+}
+
+.ourclients h1 {
+  width: 257px;
+  margin-top: 110px;
+  margin-left: 592px;
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #181818;
+}
+
+.hands {
+  margin-left: 665px;
+}
+
+.ourclients h2 {
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #363636;
+}
+
+.maria {
+  padding-left: 123px;
+}
+
+.maria h3 {
+  margin-left: 102px;
+  margin-top: -59px;
+  margin-bottom: 0px;
+}
+
+.maria h4 {
+  margin: 0px;
+  padding-top: 39px;
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 180%;
+  color: #959595;
+}
+
+.maria-sergei-egor {
+  width: 1236px;
+  height: 455px;
+  display: flex;
+}
+
+.tasks {
+  margin-top: 63px
+}
+
+.city-1 {
+  background-size: contain;
+  padding-top: 105px;
+  height: 354px;
+  background-image: url(../img/city.png);
+  background-repeat: repeat;
+  position: relative;
+  z-index: -1;
+}
+
+.city-overlay {
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.95);
+  position: relative;
+  z-index: -1;
+}
+
+.last {
+  margin-top: 210px;
+  height: 953px;
+  background-image: url(../img/last-pic.png);
+  position: relative;
+  z-index: -1;
+}
+
+.last-overlay {
+  background-image: url(../img/gardient-1.png);
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+
+.form-last .form-div {
+  background: #131313;
+  box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+  width: 883px;
+  height: 445px;
+  margin-top: -288px;
+  margin-left: 288px;
+}
+
+.form-last .form-div h3 {
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.last-overlay h1 {
+  font-family: "yeseva";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+  padding-top: 274px;
+}
+
+.address {
+  margin-left: 689px;
+  height: 28px;
+  width: 71px;
+  margin-top: 52px;
+}
+
+.map {
+  margin-top: 30px;
+  margin-left: 253px;
+}
+
+.header-content2 {
+  display: flex;
+  justify-content: space-between;
+  height: 133px;
+  align-items: center;
+}
+
+.namephone3 {
+  display: flex;
+  width: 520px;
+  margin-top: 57px;
+  margin-bottom: 48px;
+  justify-content: space-between;
+  margin-left: 181px;
+}
+  
+.namephone3 input {
+  width: 231px;
+}
+
+.namephone4 {
+  margin-left: 181px;
+}
+
+.decor2 {
+  margin-left: 0;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.decor2 .submit {
+  margin-left: 341px;
+  margin-top: 39px;
+  padding: 0%;
+  height: 51px;
+}
+  
+.decor2 .checkbox-container {
+  margin-bottom: 0px;
+  margin-left: 298px;
+}
+
+.decor2 h3 {
+  margin-top: 0px;
+  font-family: "nunito";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #FFFFFF;
+}
+  
+.decor2 .agreement {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 163.68%;
+  color: white;
+}
+ 
+.decor2 .agreementplus {
+  padding-left: 0%;
+  width: 100%;
+}
+
+.namephone3 .clue {
+  margin-top: 0px;
+}
+
+.Step_Form_item{
+  margin-right: 58px;
+  margin-top: auto;
+  margin-bottom: auto;
+} 
